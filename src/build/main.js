@@ -10,8 +10,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 function check() {
     return __awaiter(this, void 0, void 0, function* () {
+        let render = new Renderer();
         let user = new UserPage();
-        yield user.generateNewUserPage();
-        console.log(user);
+        user.generateNewUserPage().then((result) => { render.render(user); });
     });
 }

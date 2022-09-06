@@ -17,10 +17,11 @@ class UserPage {
     }
     generateNewUserPage() {
         return __awaiter(this, void 0, void 0, function* () {
-            yield Promise.all([this.user.getNewUser(),
+            return yield Promise.all([this.user.getNewUser(),
                 this.quote.getNewQuote(),
                 this.pokemon.getNewPokemon(),
                 this.ipsum.getNewIpsum()]);
+            // return this;
         });
     }
 }

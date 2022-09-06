@@ -6,10 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
+    <main>
+        <div id="personal-data">
+            
+        </div>
+        <div id="quote">
 
+        </div>
+        <div id="pokemon">
+
+        </div>
+        <div id="about">
+
+        </div>
+        <div id="friends">
+            <h4>Friends</h4>	
+            <ul class="friends-container">	
+            </ul>
+
+        </div>
+        <div id="buttons">
+            <button>Generate User</button>
+            <button>Save User</button>
+            <button>Load User</button>
+
+
+        </div>
+    </main>
+
+
+    <script id="personal-template" type="text/x-handlebars-template">
+            <img id="image"src="{{pictureUrl}}" alt="profile picture">
+            <p id="name">{{firstName}} {{lastName}}</p>
+            <p id="location">{{city}}, {{state}}</p>
+    </script>
+
+    <script id="quote-template" type="text/x-handlebars-template">
+        <h4>Favorite Quote:</h4>
+        <p>{{quote}}</p>
+    </script>
+
+    <script id="pokemon-template" type="text/x-handlebars-template">
+        <img id="image"src="{{imageUrl}}" alt="pokemon picture">
+        <p>Favorite pokemon: {{name}}</p>
+    </script>
+
+    <script id="ipsum-template" type="text/x-handlebars-template">
+        <h4>About Me::</h4>
+        <p>{{ipsum}}</p>
+    </script>
+
+    <script id="friends-template" type="text/x-handlebars-template">
+          {{#each friends}}
+            <li>{{firstName}} {{lastName}}</li>
+          {{/each}}
+    </script>
 
 
     <script src="./build/pokemon.js"></script>
@@ -17,6 +72,7 @@
     <script src="./build/quote.js"></script>
     <script src="./build/user.js"></script>
     <script src="./build/model.js"></script>
+    <script src="./build/renderer.js"></script>
     <script src="./build/main.js"></script>
 </body>
 </html>

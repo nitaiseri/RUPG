@@ -12,9 +12,10 @@ class UserPage{
     }
 
     async generateNewUserPage(){
-        await Promise.all([this.user.getNewUser(),
+        return await Promise.all([this.user.getNewUser(),
                         this.quote.getNewQuote(),
                         this.pokemon.getNewPokemon(),
                         this.ipsum.getNewIpsum()]);
+        // return this;
     }
 }

@@ -1,7 +1,7 @@
 
  async function check(){
-    let user = new UserPage();
-    await user.generateNewUserPage();
-    console.log(user)
+   let render = new Renderer();
+   let user = new UserPage();
+   user.generateNewUserPage().then((result) => {render.render(user)})
  }
 

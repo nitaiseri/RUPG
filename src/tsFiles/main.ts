@@ -1,6 +1,6 @@
 
  async function check(){
-    let user = new RandomUser();
-    await user.getNewUser();
-    console.log(user)
+    let quote = new RandomQuote();
+    await quote.getNewQuote();
+    console.log(quote.quote)
  }

@@ -10,8 +10,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 function check() {
     return __awaiter(this, void 0, void 0, function* () {
-        let quote = new RandomQuote();
-        yield quote.getNewQuote();
-        console.log(quote.quote);
+        let ipsum = new RandomIpsum();
+        yield ipsum.getNewIpsum();
+        console.log(ipsum.ipsum);
     });
 }

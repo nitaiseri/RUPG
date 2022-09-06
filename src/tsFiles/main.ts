@@ -1,6 +1,6 @@
 
  async function check(){
-    let quote = new RandomQuote();
-    await quote.getNewQuote();
-    console.log(quote.quote)
+    let ipsum = new RandomIpsum();
+    await ipsum.getNewIpsum();
+    console.log(ipsum.ipsum)
  }

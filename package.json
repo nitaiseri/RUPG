@@ -1,0 +1,22 @@
+{
+  "name": "rupg",
+  "version": "1.0.0",
+  "description": "Random-User-Page-Generator  a Facebook profile page, filled with content taken from APIs and generated with different data at the click of a button.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nitaiseri/RUPG.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nitaiseri/RUPG/issues"
+  },
+  "homepage": "https://github.com/nitaiseri/RUPG#readme",
+  "devDependencies": {
+    "@types/jquery": "^3.5.14"
+  }
+}

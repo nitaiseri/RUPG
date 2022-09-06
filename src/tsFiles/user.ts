@@ -1,4 +1,5 @@
 const NUM_OF_FRIENDS = 7;
+type Friend = {firstName:string, lastName:string}
 
 class RandomUser{
     firstName: string; 
@@ -6,7 +7,7 @@ class RandomUser{
     pictureUrl: string; 
     city: string; 
     state: string; 
-    friends: object[]; //////////////////////
+    friends: Friend[];
 
     constructor(){        
         this.firstName = ""; 
@@ -14,11 +15,11 @@ class RandomUser{
         this.pictureUrl = ""; 
         this.city = ""; 
         this.state = ""; 
-        this.friends = []; 
+        this.friends = new Array<Friend>(NUM_OF_FRIENDS); 
     }
 
     async getNewUser(){
-        let newDataUser = await $.get("https://randomuser.me/api/");
+        let newDataUser = await $.get(`https://randomuser.me/api/`);
         newDataUser = newDataUser.results[0];
         this.firstName = newDataUser.name.first;
         this.lastName = newDataUser.name.last;
@@ -29,10 +30,10 @@ class RandomUser{
     }
 
     async getFriends(){
-        const friends = [];
-        for (let i = 0; i < NUM_OF_FRIENDS; i++)
-            friends.push(this.getOneFriend());
-        return await Promise.all(friends);
+        let newFriendsData = await $.get(`https://randomuser.me/api/?results=${NUM_OF_FRIENDS}`);
+        // return newFriendsData.results
+        return newFriendsData.results.map((f: { name: { first: any; last: any; }; }) => 
+                                            ({ firstName: f.name.first, lastName: f.name.last }));        
     }
 
     async getOneFriend(){

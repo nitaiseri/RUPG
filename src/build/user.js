@@ -16,11 +16,11 @@ class RandomUser {
         this.pictureUrl = "";
         this.city = "";
         this.state = "";
-        this.friends = [];
+        this.friends = new Array(NUM_OF_FRIENDS);
     }
     getNewUser() {
         return __awaiter(this, void 0, void 0, function* () {
-            let newDataUser = yield $.get("https://randomuser.me/api/");
+            let newDataUser = yield $.get(`https://randomuser.me/api/`);
             newDataUser = newDataUser.results[0];
             this.firstName = newDataUser.name.first;
             this.lastName = newDataUser.name.last;
@@ -32,10 +32,9 @@ class RandomUser {
     }
     getFriends() {
         return __awaiter(this, void 0, void 0, function* () {
-            const friends = [];
-            for (let i = 0; i < NUM_OF_FRIENDS; i++)
-                friends.push(this.getOneFriend());
-            return yield Promise.all(friends);
+            let newFriendsData = yield $.get(`https://randomuser.me/api/?results=${NUM_OF_FRIENDS}`);
+            // return newFriendsData.results
+            return newFriendsData.results.map((f) => ({ firstName: f.name.first, lastName: f.name.last }));
         });
     }
     getOneFriend() {

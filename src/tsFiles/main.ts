@@ -1,6 +1,7 @@
 
  async function check(){
-    let poke = new RandomPokemon();
-    await poke.getNewPokemon();
-    console.log(poke)
+    let user = new UserPage();
+    await user.generateNewUserPage();
+    console.log(user)
  }
+

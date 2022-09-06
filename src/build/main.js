@@ -10,8 +10,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 function check() {
     return __awaiter(this, void 0, void 0, function* () {
-        let poke = new RandomPokemon();
-        yield poke.getNewPokemon();
-        console.log(poke);
+        let user = new UserPage();
+        yield user.generateNewUserPage();
+        console.log(user);
     });
 }

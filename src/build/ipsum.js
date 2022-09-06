@@ -15,7 +15,7 @@ class RandomIpsum {
     getNewIpsum() {
         return __awaiter(this, void 0, void 0, function* () {
             let newIpsum = yield $.get("https://baconipsum.com/api/?type=meat-and-filler");
-            this.ipsum = newIpsum.ipsum;
+            this.ipsum = newIpsum[0];
         });
     }
 }

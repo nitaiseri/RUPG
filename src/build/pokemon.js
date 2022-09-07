@@ -25,4 +25,8 @@ class RandomPokemon {
     capitlizeName(name) {
         return name.charAt(0).toUpperCase() + name.slice(1);
     }
+    copy(savedPokemon) {
+        this.name = savedPokemon.name;
+        this.imageUrl = savedPokemon.imageUrl;
+    }
 }

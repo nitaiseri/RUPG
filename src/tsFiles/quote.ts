@@ -10,4 +10,8 @@ class RandomQuote{
         let newQuote = await $.get("https://api.kanye.rest/");
         this.quote = newQuote.quote;
     }
+    
+    copy(savedQuote: RandomQuote){
+        this.quote = savedQuote.quote;
+    }
 }

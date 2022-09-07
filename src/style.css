@@ -4,7 +4,12 @@
     padding: 0;
 }
 
+html{
+    height: 98%;
+}
+
 body {
+    height: 100%;
     background-color: #ecf0f1;
     font-family: 'Nunito', sans-serif;
 }
@@ -120,6 +125,8 @@ main{
     border-top-left-radius: 4px;
     box-shadow: -1px -1px 3px black;
     padding-left: 1vmax;
+    display: grid;
+    grid-template-rows: 1fr 10fr;
 }
 
 #friends>h3{
@@ -130,6 +137,8 @@ ul {
     list-style-type: none;
     margin-left: 5%;
     font-size:medium;
+    display: grid;
+
 }
 
 li{

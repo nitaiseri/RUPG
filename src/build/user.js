@@ -33,16 +33,15 @@ class RandomUser {
     getFriends() {
         return __awaiter(this, void 0, void 0, function* () {
             let newFriendsData = yield $.get(`https://randomuser.me/api/?results=${NUM_OF_FRIENDS}`);
-            // return newFriendsData.results
             return newFriendsData.results.map((f) => ({ firstName: f.name.first, lastName: f.name.last }));
         });
     }
-    getOneFriend() {
-        return __awaiter(this, void 0, void 0, function* () {
-            let newDataUser = yield $.get("https://randomuser.me/api/");
-            newDataUser = newDataUser.results[0];
-            return { firstName: newDataUser.name.first,
-                lastName: newDataUser.name.last };
-        });
+    copy(savedUser) {
+        this.firstName = savedUser.firstName;
+        this.lastName = savedUser.lastName;
+        this.pictureUrl = savedUser.pictureUrl;
+        this.city = savedUser.city;
+        this.state = savedUser.state;
+        this.friends = savedUser.friends;
     }
 }

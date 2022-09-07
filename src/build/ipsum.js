@@ -18,4 +18,7 @@ class RandomIpsum {
             this.ipsum = newIpsum[0];
         });
     }
+    copy(savedIpsum) {
+        this.ipsum = savedIpsum.ipsum;
+    }
 }

@@ -31,18 +31,18 @@ class RandomUser{
 
     async getFriends(){
         let newFriendsData = await $.get(`https://randomuser.me/api/?results=${NUM_OF_FRIENDS}`);
-        // return newFriendsData.results
         return newFriendsData.results.map((f: { name: { first: any; last: any; }; }) => 
                                             ({ firstName: f.name.first, lastName: f.name.last }));        
     }
 
-    async getOneFriend(){
-        let newDataUser = await $.get("https://randomuser.me/api/");
-        newDataUser = newDataUser.results[0];
-        return {firstName: newDataUser.name.first,
-                lastName: newDataUser.name.last}
+    copy(savedUser: RandomUser){
+        this.firstName = savedUser.firstName; 
+        this.lastName = savedUser.lastName; 
+        this.pictureUrl = savedUser.pictureUrl; 
+        this.city = savedUser.city; 
+        this.state = savedUser.state; 
+        this.friends = savedUser.friends; 
     }
-
 
 }
 

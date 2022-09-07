@@ -18,4 +18,7 @@ class RandomQuote {
             this.quote = newQuote.quote;
         });
     }
+    copy(savedQuote) {
+        this.quote = savedQuote.quote;
+    }
 }

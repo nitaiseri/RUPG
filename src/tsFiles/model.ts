@@ -17,4 +17,16 @@ class UserPage{
                         this.pokemon.getNewPokemon(),
                         this.ipsum.getNewIpsum()]);
     }
+
+    saveCurrentUserPage(){
+        localStorage.savedPage = JSON.stringify(this);
+    }
+
+    loadLastSavedPage(){
+        const savedPage = JSON.parse(localStorage.savedPage); 
+        this.user.copy(savedPage.user); 
+        this.quote.copy(savedPage.quote); 
+        this.pokemon.copy(savedPage.pokemon); 
+        this.ipsum.copy(savedPage.ipsum); 
+    }
 }

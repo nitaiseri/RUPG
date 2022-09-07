@@ -18,8 +18,11 @@ class RandomPokemon {
         return __awaiter(this, void 0, void 0, function* () {
             const pokeId = Math.floor(Math.random() * NUM_OF_POKEMONS);
             let newPoke = yield $.get(`https://pokeapi.co/api/v2/pokemon/${pokeId}/`);
-            this.name = newPoke.name;
+            this.name = this.capitlizeName(newPoke.name);
             this.imageUrl = newPoke.sprites.front_default;
         });
+    }
+    capitlizeName(name) {
+        return name.charAt(0).toUpperCase() + name.slice(1);
     }
 }

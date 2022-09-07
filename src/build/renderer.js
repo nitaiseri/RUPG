@@ -2,6 +2,7 @@
 class Renderer {
     constructor() { }
     render(data) {
+        this.cleanPage();
         this.renderPersonalData(data.user);
         this.renderQuote(data.quote);
         this.renderPokemon(data.pokemon);
@@ -37,5 +38,12 @@ class Renderer {
         const template = Handlebars.compile(source);
         const newHTML = template({ friends });
         $('.friends-container').append(newHTML);
+    }
+    cleanPage() {
+        $("#personal-data").empty();
+        $("#quote").empty();
+        $("#pokemon").empty();
+        $("#about").empty();
+        $(".friends-container").empty();
     }
 }

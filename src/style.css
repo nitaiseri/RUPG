@@ -62,44 +62,79 @@ main{
     display: grid;
 }
 
-#quote{
-    grid-area: q;
-    font-size: 1.5vmax;
+.text{
+    font-size: 2vmax;
     text-align: left;
     color: #2c3e50;
-    padding: 1vmax;
+    padding: 2vmax;  
+    align-content: center; 
+}
+
+#quote{
+    grid-area: q;
+    display: grid;
+}
+
+.text>p {
     font-family: 'Indie Flower', cursive;
-}
-
-ul {
-    list-style-type: none;
-}
-
-.quote-container>p {
-    font-family: 'Nunito', sans-serif;
-    font-size: 1vmax;
+    font-size: 1.8vmax;
+    margin: 10px;
+    display: grid;
 }
 
 #pokemon{
     grid-area: p;
+    font-size: 20px;
+    padding: 1vw;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #2c3e50;
+}
 
+#pokemon>img{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    background-size: 100%;
+    justify-self: center;
+    cursor: pointer;
+}
 
+#pokemon>p{
+    vertical-align: middle;
 }
 
 #about{
     grid-area: a
+}
 
-
+#about>p{
+    font-size: 1.5vmax;
 }
 
 #friends{
     grid-area: f;
     background-color: #3498db;
-    font-size: 1.5vmax;
+    font-size: 2vmax;
     color: #ecf0f1;
     border-top-left-radius: 4px;
     box-shadow: -1px -1px 3px black;
     padding-left: 1vmax;
+}
+
+#friends>h3{
+    margin-top: 5%;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 5%;
+    font-size:medium;
+}
+
+li{
+    margin-top: 15%;
+    color: gainsboro;
 }
 
 #buttons{
@@ -108,7 +143,6 @@ ul {
     align-items: center;
     justify-items: center;
     grid-template-columns: repeat(3, 1fr);
-
 }
 
 button {
@@ -117,6 +151,7 @@ button {
     border-radius: 6px;
     background-color: #27ae60;
     color: #ecf0f1;
-    font-size: 2vmax;
+    font-size: 120%;
     cursor: pointer;
 }
+

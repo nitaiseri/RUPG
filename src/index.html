@@ -14,23 +14,23 @@
         <div id="personal-data">
             
         </div>
-        <div id="quote">
+        <div class="text" id="quote">
 
         </div>
         <div id="pokemon">
 
         </div>
-        <div id="about">
+        <div class="text" id="about">
 
         </div>
         <div id="friends">
-            <h4>Friends</h4>	
+            <h3>Friends</h3>	
             <ul class="friends-container">	
             </ul>
 
         </div>
         <div id="buttons">
-            <button>Generate User</button>
+            <button id="generate-btn">Generate User</button>
             <button>Save User</button>
             <button>Load User</button>
 
@@ -52,11 +52,11 @@
 
     <script id="pokemon-template" type="text/x-handlebars-template">
         <img id="image"src="{{imageUrl}}" alt="pokemon picture">
-        <p>Favorite pokemon: {{name}}</p>
+        <p><strong>Favorite pokemon:</strong> {{name}}</p>
     </script>
 
     <script id="ipsum-template" type="text/x-handlebars-template">
-        <h4>About Me::</h4>
+        <h4>About Me:</h4>
         <p>{{ipsum}}</p>
     </script>
 
@@ -73,6 +73,7 @@
     <script src="./build/user.js"></script>
     <script src="./build/model.js"></script>
     <script src="./build/renderer.js"></script>
+    <script src="./build/controller.js"></script>
     <script src="./build/main.js"></script>
 </body>
 </html>

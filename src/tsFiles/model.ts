@@ -16,6 +16,5 @@ class UserPage{
                         this.quote.getNewQuote(),
                         this.pokemon.getNewPokemon(),
                         this.ipsum.getNewIpsum()]);
-        // return this;
     }
 }

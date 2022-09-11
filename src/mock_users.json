@@ -1,0 +1,331 @@
+[{
+    "results": [
+    {
+    "gender": "female",
+    "name": {
+    "title": "Miss",
+    "first": "Josefina",
+    "last": "Prieto"
+    },
+    "location": {
+    "street": {
+    "number": 5533,
+    "name": "Calle Mota"
+    },
+    "city": "Santa Cruz de Tenerife",
+    "state": "Andalucía",
+    "country": "Spain",
+    "postcode": 98950,
+    "coordinates": {
+    "latitude": "-37.0069",
+    "longitude": "123.8642"
+    },
+    "timezone": {
+    "offset": "+4:30",
+    "description": "Kabul"
+    }
+    },
+    "email": "josefina.prieto@example.com",
+    "login": {
+    "uuid": "7b4a8ec0-fdb1-4cb2-bdb8-80d3b961859a",
+    "username": "lazyleopard110",
+    "password": "referee",
+    "salt": "ZSfXRiD2",
+    "md5": "e38427804d1b9e8872e7b1a97f04dc9a",
+    "sha1": "5700eb4aff960f3099abb061d72cbd75cb04f2d9",
+    "sha256": "3992b17d1593e70ea6f8d0b3f3070f841faaed131ea21090eed9011e19cb146c"
+    },
+    "dob": {
+    "date": "1993-06-16T08:46:05.239Z",
+    "age": 29
+    },
+    "registered": {
+    "date": "2006-01-02T14:38:42.058Z",
+    "age": 16
+    },
+    "phone": "964-153-663",
+    "cell": "638-021-158",
+    "id": {
+    "name": "DNI",
+    "value": "75017981-U"
+    },
+    "picture": {
+    "large": "https://randomuser.me/api/portraits/women/67.jpg",
+    "medium": "https://randomuser.me/api/portraits/med/women/67.jpg",
+    "thumbnail": "https://randomuser.me/api/portraits/thumb/women/67.jpg"
+    },
+    "nat": "ES"
+    }
+    ],
+    "info": {
+    "seed": "2cde1ced4a3436b7",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+    }
+}, 
+{
+    "results": [
+    {
+    "gender": "female",
+    "name": {
+    "title": "Miss",
+    "first": "Johanne",
+    "last": "Pedersen"
+    },
+    "location": {
+    "street": {
+    "number": 4830,
+    "name": "Stenager"
+    },
+    "city": "St.Merløse",
+    "state": "Danmark",
+    "country": "Denmark",
+    "postcode": 82567,
+    "coordinates": {
+    "latitude": "-40.6813",
+    "longitude": "14.0239"
+    },
+    "timezone": {
+    "offset": "-10:00",
+    "description": "Hawaii"
+    }
+    },
+    "email": "johanne.pedersen@example.com",
+    "login": {
+    "uuid": "6b417cc1-c2d6-46ce-be5f-6da604b1b9d8",
+    "username": "yellowgoose846",
+    "password": "enrico",
+    "salt": "i3yzX6S5",
+    "md5": "f391187b91b256e5c5f5c2b95df99eba",
+    "sha1": "7293b0082556adf5de1b5bc8fdaabd977a4e2043",
+    "sha256": "1d41f568a241aa20b7f3a68a61f2104d7f83cc0450e529ca1fbfeb9c1904e55d"
+    },
+    "dob": {
+    "date": "1982-07-28T17:09:14.997Z",
+    "age": 40
+    },
+    "registered": {
+    "date": "2010-06-16T01:38:27.914Z",
+    "age": 12
+    },
+    "phone": "27075858",
+    "cell": "72777279",
+    "id": {
+    "name": "CPR",
+    "value": "280782-6571"
+    },
+    "picture": {
+    "large": "https://randomuser.me/api/portraits/women/4.jpg",
+    "medium": "https://randomuser.me/api/portraits/med/women/4.jpg",
+    "thumbnail": "https://randomuser.me/api/portraits/thumb/women/4.jpg"
+    },
+    "nat": "DK"
+    }
+    ],
+    "info": {
+    "seed": "26ff26450f53567f",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+    }
+}, 
+{
+    "results": [
+    {
+    "gender": "female",
+    "name": {
+    "title": "Ms",
+    "first": "Beatriz",
+    "last": "Arias"
+    },
+    "location": {
+    "street": {
+    "number": 139,
+    "name": "Eje vial Lucio"
+    },
+    "city": "El Castillo (Mpio. Mazatlán)",
+    "state": "Colima",
+    "country": "Mexico",
+    "postcode": 23062,
+    "coordinates": {
+    "latitude": "27.6802",
+    "longitude": "101.9422"
+    },
+    "timezone": {
+    "offset": "-10:00",
+    "description": "Hawaii"
+    }
+    },
+    "email": "beatriz.arias@example.com",
+    "login": {
+    "uuid": "20b10944-2332-46cc-acce-98a19afb4cb4",
+    "username": "whitemeercat578",
+    "password": "sasha1",
+    "salt": "mokyVVjW",
+    "md5": "ae0f56c5bead810739a57f02a2a8bed4",
+    "sha1": "2007e943e561eee77c9db888aa10c2952d15749d",
+    "sha256": "5fab4f808ab2618545ae6e6cf2dd235eab51e84f19d84a9ac7840e9b9afa0988"
+    },
+    "dob": {
+    "date": "1981-10-21T20:27:32.219Z",
+    "age": 40
+    },
+    "registered": {
+    "date": "2004-08-18T17:23:05.211Z",
+    "age": 18
+    },
+    "phone": "(669) 728 7232",
+    "cell": "(625) 030 5653",
+    "id": {
+    "name": "NSS",
+    "value": "50 78 08 2314 4"
+    },
+    "picture": {
+    "large": "https://randomuser.me/api/portraits/women/55.jpg",
+    "medium": "https://randomuser.me/api/portraits/med/women/55.jpg",
+    "thumbnail": "https://randomuser.me/api/portraits/thumb/women/55.jpg"
+    },
+    "nat": "MX"
+    }
+    ],
+    "info": {
+    "seed": "d3570ab9be9383e4",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+    }
+},
+{
+    "results": [
+    {
+    "gender": "female",
+    "name": {
+    "title": "Ms",
+    "first": "Barb",
+    "last": "Roberts"
+    },
+    "location": {
+    "street": {
+    "number": 1664,
+    "name": "Brick Kiln Road"
+    },
+    "city": "Durham",
+    "state": "Nottinghamshire",
+    "country": "United Kingdom",
+    "postcode": "C8 2SU",
+    "coordinates": {
+    "latitude": "-11.6743",
+    "longitude": "172.0616"
+    },
+    "timezone": {
+    "offset": "-9:00",
+    "description": "Alaska"
+    }
+    },
+    "email": "barb.roberts@example.com",
+    "login": {
+    "uuid": "2cf1214b-464c-4901-97b8-5c4cb6b8fd8e",
+    "username": "orangegoose803",
+    "password": "qwer",
+    "salt": "xqWMahJC",
+    "md5": "0ae6d6d8b9b676aca562608eb6560212",
+    "sha1": "435dd32194169f6bf7d91bca7d9126612565eddc",
+    "sha256": "5bbca9a79a1ac6f9d186dd2f13009d79149569c9fea0a5556a7c1119918aef59"
+    },
+    "dob": {
+    "date": "1960-01-11T21:02:33.743Z",
+    "age": 62
+    },
+    "registered": {
+    "date": "2018-07-13T09:43:25.502Z",
+    "age": 4
+    },
+    "phone": "016977 0562",
+    "cell": "07173 007486",
+    "id": {
+    "name": "NINO",
+    "value": "CM 33 27 84 D"
+    },
+    "picture": {
+    "large": "https://randomuser.me/api/portraits/women/71.jpg",
+    "medium": "https://randomuser.me/api/portraits/med/women/71.jpg",
+    "thumbnail": "https://randomuser.me/api/portraits/thumb/women/71.jpg"
+    },
+    "nat": "GB"
+    }
+    ],
+    "info": {
+    "seed": "0516c3ce7c27f313",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+    }
+}, 
+{
+    "results": [
+    {
+    "gender": "male",
+    "name": {
+    "title": "Mr",
+    "first": "Kent",
+    "last": "Frazier"
+    },
+    "location": {
+    "street": {
+    "number": 9219,
+    "name": "O'Connell Street"
+    },
+    "city": "Kinsale",
+    "state": "Limerick",
+    "country": "Ireland",
+    "postcode": 44704,
+    "coordinates": {
+    "latitude": "-1.5610",
+    "longitude": "-175.2450"
+    },
+    "timezone": {
+    "offset": "+9:00",
+    "description": "Tokyo, Seoul, Osaka, Sapporo, Yakutsk"
+    }
+    },
+    "email": "kent.frazier@example.com",
+    "login": {
+    "uuid": "94ee8886-62bd-48eb-9dcc-70277acc48e7",
+    "username": "silverrabbit511",
+    "password": "stanley",
+    "salt": "AkQ2G4QJ",
+    "md5": "fcb7779ba5c7845825f07dd6f07f62dc",
+    "sha1": "80259059cdc503a378d3a942bad3edfc1fb691e4",
+    "sha256": "f0aaa4c2d064ecdd8c920f4aa07c7f70492b2e742fe5fc6d0da505465929035f"
+    },
+    "dob": {
+    "date": "1948-01-11T07:13:22.637Z",
+    "age": 74
+    },
+    "registered": {
+    "date": "2005-03-10T20:21:02.570Z",
+    "age": 17
+    },
+    "phone": "041-687-2594",
+    "cell": "081-742-8794",
+    "id": {
+    "name": "PPS",
+    "value": "8124794T"
+    },
+    "picture": {
+    "large": "https://randomuser.me/api/portraits/men/44.jpg",
+    "medium": "https://randomuser.me/api/portraits/med/men/44.jpg",
+    "thumbnail": "https://randomuser.me/api/portraits/thumb/men/44.jpg"
+    },
+    "nat": "IE"
+    }
+    ],
+    "info": {
+    "seed": "3d393065e6fe7b50",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+    }
+}
+]
